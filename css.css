@@ -1,0 +1,64 @@
+/* Common styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: rgb(235, 27, 27);
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(26, 25, 25);
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(63, 12, 202);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Homepage */
+.homepage {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Product Page */
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Cart Page */
+.cart {
+    text-align: center;
+    padding: 20px;
+}
+
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
